@@ -1,0 +1,35 @@
+name: Refresh pixel profile cards
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate profile cards
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate pixel-art GitHub stat cards
+        uses: LuciNyan/pixel-profile/action@main
+        with:
+          outputs: |
+            dist/github-stats-light?username=01-Yang&theme=journey&pixelate_avatar=true&dithering=true&hide=rank
+          crt_outputs: |
+            dist/github-stats-crt?username=01-Yang&include_all_commits=true
+
+      - name: Publish generated cards
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
