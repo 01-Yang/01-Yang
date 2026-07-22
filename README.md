@@ -22,3 +22,8 @@
 </picture>
 
 </div>
+
+## 📦 Projects
+
+- 🎮 [The 25th Hour](https://github.com/01-Yang/The-25th-Hour) — 一款让玩家重历五年建筑学院青春的网页人生模拟器。
+- 🧩 [codebase-convergence](https://github.com/01-Yang/codebase-convergence) — 用于梳理代码、架构与文档一致性的 Codex Agent Skill。
