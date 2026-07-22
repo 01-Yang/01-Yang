@@ -3,7 +3,10 @@
 <h1>您好👋，我是零一扬！</h1>
 
 <p><strong>以 AI 为引擎，于 零一 之间探索，在 日新 之中迭代！</strong></p>
-<p><em>Powered by AI, exploring between zero and one, and iterating toward renewal each day.</em></p>
+<p><em>Powered by AI, exploring between zero and one, and iterating anew each day.</em></p>
+
+<p><strong>AI 独立开发｜实践分享｜零一 AI 日新社 社长</strong></p>
+<p><em>AI Indie Developer | Build &amp; Share | President, Zero-One AI Rixin Society</em></p>
 
 </div>
 
