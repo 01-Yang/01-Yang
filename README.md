@@ -1,8 +1,9 @@
 <div align="center">
 
-<h1>Hi 👋, I'm Yang</h1>
+<h1>您好👋，我是零一扬！</h1>
 
-<p><strong>Building ideas into playful, useful experiences.</strong></p>
+<p><strong>以 AI 为引擎，于 零一 之间探索，在 日新 之中迭代！</strong></p>
+<p><em>Powered by AI, exploring between zero and one, and iterating toward renewal each day.</em></p>
 
 </div>
 
