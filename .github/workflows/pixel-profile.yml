@@ -22,9 +22,8 @@ jobs:
         uses: LuciNyan/pixel-profile/action@main
         with:
           outputs: |
-            dist/github-stats-light?username=01-Yang&theme=journey&pixelate_avatar=true&dithering=true&hide=rank
-          crt_outputs: |
-            dist/github-stats-crt?username=01-Yang&include_all_commits=true
+            dist/github-stats-light?username=01-Yang&theme=summer&pixelate_avatar=true&dithering=true&include_all_commits=true&hide=rank
+            dist/github-stats-dark?username=01-Yang&theme=blue_chill&pixelate_avatar=true&dithering=true&screen_effect=true&include_all_commits=true&hide=rank
 
       - name: Publish generated cards
         uses: crazy-max/ghaction-github-pages@v3.1.0
